@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f4f6; /* Light background */
+    min-width: 400px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #4a90e2; /* Matches blue theme */
+    border-radius: 8px;
+    margin-bottom: 6px;
+    background-color: #ffffff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #0077c8; /* Deep blue */
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.2);
+    outline: none;
+}
+
+button {
+    background: linear-gradient(45deg, #4a90e2, #0077c8); /* Modern blue gradient */
+    color: white;
+    padding: 12px 24px;
+    border: 1px solid #0077c8;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+    outline: none;
+    margin-right: 5px; /* Adds space between buttons */
+}
+
+button:hover {
+    background: linear-gradient(45deg, #3a78b4, #005a9e); /* Slightly darker blue */
+    transform: translateY(-2px);
+}
+
+#delete-btn {
+    background: white;
+    color: #0077c8;
+    border: 1px solid #0077c8; /* Matches blue theme */
+}
+
+#delete-btn:hover {
+    background-color: #e6f2fc; /* Light blue hover */
+    color: #005a9e; /* Darker blue */
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    display: block; /* Ensures the entire block is clickable */
+    text-decoration: none;
+    color: #0077c8; /* Link color */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    color: #4a90e2; /* Light blue on hover */
+}
+
+li {
+    margin-top: 8px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    cursor: pointer; /* Makes the list item look clickable */
+}
+
+li:hover {
+    background-color: #e6f2fc; /* Light blue background on hover */
+}
